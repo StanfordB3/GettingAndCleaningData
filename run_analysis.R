@@ -10,7 +10,7 @@ if (!file.exists("~/Desktop/DataScience/3 Data Cleaning/Week 4/UCI HAR Dataset")
 }
 
 # # Unzip the data file to the local direcotory
-unzip(DestFile)
+# unzip(DestFile)
 # list.files("UCI HAR Dataset")
 
 #### Section II: R Libraries 
