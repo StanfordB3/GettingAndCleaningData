@@ -12,7 +12,7 @@
 \f1 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 The CodeBook\
 \
 Data Overview: \
-	This is the description if tidy data set Tidy_HAR_Summary.csv extracted from the HAR data located at the University of Irvine data repository.  The Tidy_HAR_Summary.csv file was generated using am R script (run_analysis.R). \
+	This is the description if tidy data set Tidy_HAR_Summary.txt extracted from the HAR data located at the University of Irvine data repository.  The Tidy_HAR_Summary.txt file was generated using am R script (run_analysis.R). \
 \
 	This is a brief description of the extracted data set. The original data set is described at the site below for additional information about the units. \
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip\
