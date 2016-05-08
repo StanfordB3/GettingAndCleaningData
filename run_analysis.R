@@ -110,4 +110,4 @@ TT[, 1] <- actLabels[TT$Activity.type[[1]]] # Satisfies Assignment Requirement #
 #### Section V:  Write the Output files
 ### Assignment Requirement #:  5
 df1 <- data.frame(TT %>% group_by(Subject, Activity.type) %>% summarise_each(funs(mean(., na.rm = TRUE))))
-write.csv(df1, "Tidy_HAR_Summary.csv")
+write.table(df1, "Tidy_HAR_Summary.txt", row.names = FALSE)

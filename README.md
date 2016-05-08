@@ -1,6 +1,6 @@
 ## Code Book
 
-This file describes the run_analysis.R, Tidy_HAR_Summary.csv, and Tidy_HAR_CodeBook.txt files within this folder of the Githup repository.
+This file describes the run_analysis.R, Tidy_HAR_Summary.txt, and Tidy_HAR_CodeBook.txt files within this folder of the Githup repository.
 
 ### 1. run_analysis.R
 This is an R code that was developed in RStudio on an an Apple MAC laptop. For most part the code has been commented appropriately at every step.
@@ -32,9 +32,9 @@ Next, using R grep command the columns with mean and std observables are extract
 #### *Section V: Write the Output files *
 Finally, the information in the TT is in the appropriate format to group the data by the activity types and subject information.  Subsequently, using summarize_each command the mean for each vector is generated that tabulates the data each subject and each activity. 
 
-### 2. Tidy_HAR_Summary.csv
+### 2. Tidy_HAR_Summary.txt
 
-The Tidy_HAR_Summary.csv is the output of run_analysis.R describe above. It lists averates for each of the mean and standard deviation vector for each of the activity as well as subject that performed the experiments.
+The Tidy_HAR_Summary.txt is the output of run_analysis.R describe above. It lists averates for each of the mean and standard deviation vector for each of the activity as well as subject that performed the experiments.
 
 ### 3. Tidy_HAR_CodeBook.txt
 
